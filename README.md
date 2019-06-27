@@ -29,7 +29,7 @@ dependencies{
 ```
 
 
-To start using the library you just need to call `Dexter` with a valid `Activity`:
+To start using the library you just need to call `Dexter` with a valid `Activity`...
 
 ```java
 public MyActivity extends Activity {
@@ -41,6 +41,15 @@ public MyActivity extends Activity {
 			.check();
 	}
 }
+```
+
+...or with a valid `Context`
+
+```java
+Dexter.withContext(context)
+    .withPermission(permission)
+    .withListener(listener)
+    .check();
 ```
 
 ### Single permission

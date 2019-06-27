@@ -43,7 +43,7 @@ public MyActivity extends Activity {
 }
 ```
 
-...or with a valid `Context`
+...or with a valid `Context`:
 
 ```java
 Dexter.withContext(context)
